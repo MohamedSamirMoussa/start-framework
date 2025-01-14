@@ -1,13 +1,12 @@
-import { createBrowserRouter, RouterProvider } from "react-router";
+import { createHashRouter, RouterProvider } from "react-router";
 import Home from "./Componant/Home/Home";
 import About from "./Componant/About/About";
 import Contact from "./Componant/Contact/Contact";
 import Portfolio from "./Componant/Portfolio/Portfolio";
-import Footer from "./Componant/Footer/Footer";
 import Layout from "./Componant/Layout/Layout";
 
 const App = () => {
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "",
       element: <Layout />,
@@ -22,8 +21,7 @@ const App = () => {
   ]);
   return (
     <>
-      <RouterProvider router={router} />
-      <Footer />
+      <RouterProvider router={router} />  
     </>
   );
 };
