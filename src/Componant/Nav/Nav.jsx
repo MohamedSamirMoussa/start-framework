@@ -44,7 +44,7 @@ const Nav = () => {
                 <NavLink
                   className="nav-link text-white p-2 rounded-3"
                   aria-current="page"
-                  to={"/about"}
+                  to={"/start-framework/about"}
                 >
                   about
                 </NavLink>
@@ -52,7 +52,7 @@ const Nav = () => {
               <li className="nav-item">
                 <NavLink
                   className="nav-link text-white p-2 rounded-3"
-                  to={"/portfolio"}
+                  to={"/start-framework/portfolio"}
                 >
                   portfolio
                 </NavLink>
@@ -60,7 +60,7 @@ const Nav = () => {
               <li className="nav-item">
                 <NavLink
                   className="nav-link text-white p-2 rounded-3"
-                  to={"/contact"}
+                  to={"/start-framework/contact"}
                 >
                   contact
                 </NavLink>
