@@ -9,6 +9,7 @@ const App = () => {
 
 let router = createBrowserRouter([
     {path: "" , element:<Home />},
+    {path : "*" , element : <h1 className="vh-100 d-flex justify-content-center align-items-center">404 Page not found</h1>},
     {path: "start-framework" , element:<Home />, children : [
       {path: "about" , element: <About />},
       {path: "contact" , element: <Contact />},
