@@ -7,7 +7,7 @@ import Footer from "./Componant/Footer/Footer";
 import Layout from "./Componant/Layout/Layout";
 
 const App = () => {
-  let router = createBrowserRouter([
+  const router = createBrowserRouter([
     {
       path: "",
       element: <Layout />,
