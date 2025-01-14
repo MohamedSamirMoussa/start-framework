@@ -9,6 +9,7 @@ const App = () => {
 
 let router = createBrowserRouter([
     {path: "" , element:<Home />},
+    {path: "start-framework" , element : <Home />},
     {path: "home" , element:<Home />},
     {path: "about" , element: <About />},
     {path: "contact" , element: <Contact />},
