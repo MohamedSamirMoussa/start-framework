@@ -1,7 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Nav from "../Nav/Nav";
 import { faPlus, faStar } from "@fortawesome/free-solid-svg-icons";
-
+import img from "../../../src/assets/img/poert1.png"
+import img2 from "../../../src/assets/img/port2.png"
+import img3 from "../../../src/assets/img/port3.png"
 const Portfolio = () => {
   return (
     <>
@@ -24,7 +26,7 @@ const Portfolio = () => {
                 data-bs-target="#exampleModal"
               >
                 <img
-                  src="../../../src/assets/img/poert1.png"
+                  src={img}
                   className="w-100"
                   alt=""
                 />
@@ -40,7 +42,7 @@ const Portfolio = () => {
                 data-bs-target="#Modal"
               >
                 <img
-                  src="../../../src/assets/img/port2.png"
+                  src={img2}
                   className="w-100"
                   alt=""
                 />
@@ -56,7 +58,7 @@ const Portfolio = () => {
                 data-bs-target="#Modal2"
               >
                 <img
-                  src="../../../src/assets/img/port3.png"
+                  src={img3}
                   className="w-100"
                   alt=""
                 />
@@ -72,7 +74,7 @@ const Portfolio = () => {
                 data-bs-target="#exampleModal"
               >
                 <img
-                  src="../../../src/assets/img/poert1.png"
+                  src={img}
                   className="w-100"
                   alt=""
                 />
@@ -88,7 +90,7 @@ const Portfolio = () => {
             >
               <div className="group position-relative">
                 <img
-                  src="../../../src/assets/img/port2.png"
+                  src={img2}
                   className="w-100"
                   alt=""
                 />
@@ -104,7 +106,7 @@ const Portfolio = () => {
                 data-bs-target="#Modal2"
               >
                 <img
-                  src="../../../src/assets/img/port3.png"
+                  src={img3}
                   className="w-100"
                   alt=""
                 />
@@ -128,7 +130,7 @@ const Portfolio = () => {
           <div className="modal-content">
             <div className="bg-transparent">
               <img
-                src="../../../src/assets/img/poert1.png"
+                src={img}
                 className="w-100"
                 alt=""
               />
@@ -148,7 +150,7 @@ const Portfolio = () => {
           <div className="modal-content">
             <div className="bg-transparent">
               <img
-                src="../../../src/assets/img/port2.png"
+                src={img2}
                 className="w-100"
                 alt=""
               />
@@ -168,7 +170,7 @@ const Portfolio = () => {
           <div className="modal-content">
             <div className="bg-transparent">
               <img
-                src="../../../src/assets/img/port3.png"
+                src={img3}
                 className="w-100"
                 alt=""
               />

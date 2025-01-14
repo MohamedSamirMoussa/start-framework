@@ -1,7 +1,7 @@
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Nav from "../Nav/Nav";
-
+import img4 from "../../../src/assets/img/avataaars.svg"
 const Home = () => {
   return (
     <>
@@ -11,7 +11,7 @@ const Home = () => {
           <div className="info d-flex justify-content-center align-items-center flex-column">
             <figure>
             <img
-              src="../../../src/assets/img/avataaars.svg"
+              src={img4}
               className="w-100 d-block"
               alt="home avatar"
             />
