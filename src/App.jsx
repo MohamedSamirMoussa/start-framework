@@ -7,7 +7,7 @@ import Layout from "./Componant/Layout/Layout";
 import Footer from "./Componant/Footer/Footer";
 
 const App = () => {
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "",
       element: <Layout />,
