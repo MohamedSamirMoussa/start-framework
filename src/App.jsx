@@ -4,7 +4,6 @@ import About from "./Componant/About/About";
 import Contact from "./Componant/Contact/Contact";
 import Portfolio from "./Componant/Portfolio/Portfolio";
 import Layout from "./Componant/Layout/Layout";
-import Footer from './Componant/Footer/Footer';
 
 const App = () => {
   const router = createBrowserRouter([
