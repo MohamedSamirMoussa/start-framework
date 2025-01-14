@@ -14,7 +14,6 @@ const App = () => {
       children: [
         { path: "", element: <Home /> },
         { path: "start-framework", element: <Home /> },
-        { path: "home", element: <Home /> },
         { path: "/start-framework/about", element: <About /> },
         { path: "/start-framework/contact", element: <Contact /> },
         { path: "/start-framework/portfolio", element: <Portfolio /> },
