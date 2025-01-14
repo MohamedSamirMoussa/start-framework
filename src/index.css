@@ -1,0 +1,95 @@
+#home , #about , #contact .bg  {
+  background-color: #1abc9c;
+}
+
+.color {
+  color: #1abc9c;
+}
+
+.nav {
+  transition: all 1s !important;
+  -webkit-transition: all 1s !important;
+  -moz-transition: all 1s !important;
+  -ms-transition: all 1s !important;
+  -o-transition: all 1s !important;
+}
+
+.line {
+  width: 80px;
+  height: 4px;
+  background-color: #fff;
+}
+
+#foot {
+  background: #1a252f;
+}
+
+#nav , #footer {
+  background: #2c3e50;
+}
+
+#nav .active{
+  background-color: #1abc9c;
+  width: fit-content;
+}
+
+#footer li {
+  margin: 0px 10px 0 0;
+  width: 40px;
+  height: 40px;
+  border: #fff 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.overly {
+  background: #1abc9c;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  cursor: pointer;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.group:hover .overly {
+  opacity: 1;
+}
+
+#contact .show{
+  transition: all 0.8s;
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  -o-transition: all 0.8s;
+}
+
+#contact .hidden {
+  transition: all 0.8s;
+  transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  -o-transition: all 0.8s;
+}
