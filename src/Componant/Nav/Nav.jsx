@@ -20,7 +20,7 @@ const Nav = () => {
         <div className="container-fluid">
           <Link
             className="navbar-brand text-uppercase text-white fw-bold fs-1"
-            to={"/start-framework"}
+            to={"/home"}
           >
             Start Framework
           </Link>
